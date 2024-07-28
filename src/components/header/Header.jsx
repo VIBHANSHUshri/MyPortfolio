@@ -3,6 +3,12 @@ import "./header.css";
 
 const Header = () => {
 
+  window.addEventListener("scroll" , function(){
+   const header = this.document.querySelector(".header");
+   if(this.scrollY >= 80) header.classList.add("scroll-header");
+   else header.classList.remove("show-header")
+  });
+
  const[Toggle , showMenu] = useState(false);
     return(
         <>
@@ -22,18 +28,18 @@ const Header = () => {
                           </a>
                         </li>
                         <li className="nav__item">
-                          <a href="skills" className="nav__link">
+                          <a href="#skills" className="nav__link">
                             <i className="uil uil-file-alt nav__icon"></i>Skills
                           </a>
                         </li>
                         <li className="nav__item">
                           <a href="#services" className="nav__link">
-                            <i className="uil uil-briefcase-alt nav__icon"></i>Services
+                            <i className="uil uil-briefcase-alt nav__icon"></i>Projects
                           </a>
                         </li>
                         <li className="nav__item">
-                          <a href="#portfolio" className="nav__link">
-                            <i className="uil uil-scenery nav__icon"></i>Portfolio
+                          <a href="#qualification" className="nav__link">
+                            <i className="uil uil-scenery nav__icon"></i>Qualification
                           </a>
                         </li>
                         <li className="nav__item">

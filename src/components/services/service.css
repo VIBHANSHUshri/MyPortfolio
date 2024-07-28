@@ -1,5 +1,5 @@
 .services__container{
-    grid-template-columns: repeat(2,270px);
+    grid-template-columns: repeat(2,280px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -8,6 +8,25 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgb(43, 40, 40);
     padding: 3rem 0 2rem 2.5rem;
+}
+.services__view-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.services__view-more-btn {
+    background-color: #575555;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.services__view-more-btn:hover {
+    background-color: #1e1e1e;
 }
 
 .services__icon{
@@ -68,7 +87,8 @@
     transition: .3s;
 }
 .services__modal-content{
-    width: 500px;
+    width: 50%;
+    height: 70%;
     position:relative;
     background-color: rgb(43, 40, 40);
     padding: 4.5rem 2.5rem 2.5rem;
@@ -87,6 +107,12 @@
 .services__modal-title,
 .services__modal-description{
     text-align: center;
+}
+.huuuu{
+    font-size: large;
+    color: rgba(255, 121, 121, 0.908);
+    cursor: pointer;
+    
 }
 
 .services__modal-title{
