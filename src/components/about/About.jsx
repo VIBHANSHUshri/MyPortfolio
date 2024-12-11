@@ -1,6 +1,6 @@
 /*eslint-disable */
 import "./about.css";
-import profile1 from "../../assets/profile3.jpg";
+import profile1 from "../../assets/profile2.jpg";
 import resume from "../../assets/Vibhanshu's Resume offcampus1.pdf";
 import Info from "./Info";
 const About = () => {

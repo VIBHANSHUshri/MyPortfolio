@@ -21,17 +21,13 @@ const Services = () => {
             <h2 className="section__title">Projects</h2>
             <span className="section__subtitle">What I created</span>
             <div className="services__container container grid">
-               
-                
-                
-                
                         <div className="services__content">
                             <div>
                                 <i className="uil uil-restaurant services__icon"></i>
                                 <h3 className="services__title">Mern food <br/> ordering app</h3>
                             </div>
-                            <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-                            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+                            <span className="services__button" onClick={() => toggleTab(1)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+                            <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
                                     <h3 className="services__modal-title">Mern food ordering app</h3>
@@ -39,19 +35,12 @@ const Services = () => {
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
+                                            <p className="services__modal-info">Developed the user interface by using tailwind css with mui material.</p>
                                         </li>
+                                       
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"></p>
+                                            <p className="services__modal-info">This app helps in ordering the food you like by searching restaurant near you</p>
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -79,15 +68,15 @@ const Services = () => {
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
+                                            <p className="services__modal-info">Developed the user interface.</p>
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
+                                            <p className="services__modal-info">Creating the crud functionality enabling users to search their desired location</p>
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
+                                            <p className="services__modal-info">Developed a web app enabling users to book hotels and view comprehensive reviews and ratings.</p>
                                         </li>
                 
                                         <li className="services__modal-service">
@@ -107,8 +96,8 @@ const Services = () => {
                                 <i className="uil uil-restaurant services__icon"></i>
                                 <h3 className="services__title">Finance<br/> DashBoard</h3>
                             </div>
-                            <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-                            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+                            <span className="services__button" onClick={() => toggleTab(3)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+                            <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
                                     <h3 className="services__modal-title">Finance DashBoard</h3>
@@ -116,15 +105,14 @@ const Services = () => {
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
+                                            <p className="services__modal-info">Developed user interface by Recharts library.</p>
                                         </li>
+                                       
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
+                                            <p className="services__modal-info">
+                                                
+                                                Description: Seamlessly integrated various tools and languages to create a financial dashboard representing data such as expenses, revenue, buyers, sellers, and products through charts</p>
                                         </li>
                                       
                                         <li className="services__modal-service">
@@ -140,8 +128,8 @@ const Services = () => {
                                 <i className="uil uil-house-user services__icon"></i>
                                 <h3 className="services__title">Shoppe</h3>
                             </div>
-                            <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-                            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+                            <span className="services__button" onClick={() => toggleTab(4)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+                            <div className={toggleState === 4 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
                                     <h3 className="services__modal-title">Shoppe</h3>
@@ -149,17 +137,15 @@ const Services = () => {
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
+                                            <p className="services__modal-info">Developed the user interface by tailwind css.</p>
                                         </li>
+                                       
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
+                                            <p className="services__modal-info">Developed a web app by which you can buy or rent clothes</p>
                                         </li>
                                         
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
+    
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
                                             <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/shoppe" target="blank" className="huuuu"><u>Repo</u></a></p>
