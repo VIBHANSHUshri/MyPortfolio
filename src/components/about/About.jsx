@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                <Info />
 
-               <p className="about__description">I am an aspiring full stack developer , i create backend + frontend project with a lot of good functionality and secured by tokens</p>
+               <p className="about__description">I am a Final year student, Pursuing graduation in Medicaps University. </p>
 
                <a download = "" href={resume} className="button button--flex">Download CV 
                <svg
