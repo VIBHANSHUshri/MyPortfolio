@@ -28,14 +28,14 @@ const Services = () => {
                         <div className="services__content">
                             <div>
                                 <i className="uil uil-restaurant services__icon"></i>
-                                <h3 className="services__title">Mern food  <br/> ordering app</h3>
+                                <h3 className="services__title">Mern food <br/> ordering app</h3>
                             </div>
                             <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
                             <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
                                     <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
+                                    <p className="services__modal-description">Skills Used: React, Javascript, Typescript, Mern</p>
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -51,7 +51,7 @@ const Services = () => {
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
+                                            <p className="services__modal-info"></p>
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -74,8 +74,8 @@ const Services = () => {
                             <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
-                                    <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
+                                    <h3 className="services__modal-title">Booking App</h3>
+                                    <p className="services__modal-description">Skills Used: MERN Stack</p>
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -89,18 +89,12 @@ const Services = () => {
                                             <i className="uil uil-check-circle services__modal-icon"></i>
                                             <p className="services__modal-info">I created UX element interactions</p>
                                         </li>
+                
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
+                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/Booking-App" target="blank" className="huuuu"><u>Repo</u></a></p>
                                         </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/mern-food-frontend" target="blank" className="huuuu"><u>Repo</u></a></p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href= "https://mern-food-frontend-sm1v.onrender.com/" target="blank" className="huuuu"><u>Demo</u></a></p>
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -111,14 +105,14 @@ const Services = () => {
                           <div className="services__content">
                             <div>
                                 <i className="uil uil-restaurant services__icon"></i>
-                                <h3 className="services__title">Mern food  <br/> ordering app</h3>
+                                <h3 className="services__title">Finance<br/> DashBoard</h3>
                             </div>
                             <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
                             <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
-                                    <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
+                                    <h3 className="services__modal-title">Finance DashBoard</h3>
+                                    <p className="services__modal-description">Skills Used : React, Rechart , Redux , Javascript,Typescript,Mern Stack</p>
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -132,17 +126,10 @@ const Services = () => {
                                             <i className="uil uil-check-circle services__modal-icon"></i>
                                             <p className="services__modal-info">I created UX element interactions</p>
                                         </li>
+                                      
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/mern-food-frontend" target="blank" className="huuuu"><u>Repo</u></a></p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href= "https://mern-food-frontend-sm1v.onrender.com/" target="blank" className="huuuu"><u>Demo</u></a></p>
+                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/financedashboard" target="blank" className="huuuu"><u>Repo</u></a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -151,14 +138,14 @@ const Services = () => {
                         <div className="services__content">
                             <div>
                                 <i className="uil uil-house-user services__icon"></i>
-                                <h3 className="services__title">Mern food  <br/> ordering app</h3>
+                                <h3 className="services__title">Shoppe</h3>
                             </div>
                             <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
                             <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
-                                    <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
+                                    <h3 className="services__modal-title">Shoppe</h3>
+                                    <p className="services__modal-description">Skills Used :MERN Stack , Redux</p>
                                     <ul className="services__modal-services grid">
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
@@ -168,106 +155,22 @@ const Services = () => {
                                             <i className="uil uil-check-circle services__modal-icon"></i>
                                             <p className="services__modal-info">Web Page Development</p>
                                         </li>
+                                        
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
                                             <p className="services__modal-info">I created UX element interactions</p>
                                         </li>
                                         <li className="services__modal-service">
                                             <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
+                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/shoppe" target="blank" className="huuuu"><u>Repo</u></a></p>
                                         </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/mern-food-frontend" target="blank" className="huuuu"><u>Repo</u></a></p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href= "https://mern-food-frontend-sm1v.onrender.com/" target="blank" className="huuuu"><u>Demo</u></a></p>
-                                        </li>
+                
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="services__content">
-                            <div>
-                                <i className="uil uil-restaurant services__icon"></i>
-                                <h3 className="services__title">Mern food  <br/> ordering app</h3>
-                            </div>
-                            <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-                            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
-                                <div className="services__modal-content">
-                                    <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
-                                    <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
-                                    <ul className="services__modal-services grid">
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/mern-food-frontend" target="blank" className="huuuu"><u>Repo</u></a></p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href= "https://mern-food-frontend-sm1v.onrender.com/" target="blank" className="huuuu"><u>Demo</u></a></p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="services__content">
-                            <div>
-                                <i className="uil uil-restaurant services__icon"></i>
-                                <h3 className="services__title">Mern food  <br/> ordering app</h3>
-                            </div>
-                            <span className="services__button" onClick={() => toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-                            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
-                                <div className="services__modal-content">
-                                    <i className="uil uil-times services__modal-close" onClick={() => setToggleState(0)}></i>
-                                    <h3 className="services__modal-title">Mern food ordering app</h3>
-                                    <p className="services__modal-description">Skills Used : React,Javascript,Typescript,Mern</p>
-                                    <ul className="services__modal-services grid">
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Develop the user interface.</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">Web Page Development</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info">I created UX element interactions</p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href="https://github.com/VIBHANSHUshri/mern-food-frontend" target="blank" className="huuuu"><u>Repo</u></a></p>
-                                        </li>
-                                        <li className="services__modal-service">
-                                            <i className="uil uil-check-circle services__modal-icon"></i>
-                                            <p className="services__modal-info"><a href= "https://mern-food-frontend-sm1v.onrender.com/" target="blank" className="huuuu"><u>Demo</u></a></p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                      
+                       
                     </>
                 )}
             </div>
