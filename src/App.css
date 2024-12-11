@@ -9,11 +9,11 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 10;
   --sat: 5%;
-  --title-color: hsl(var(--hue), var(--sat), 100%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
-  --text-color: hsl(var(--hue), var(--sat), 50%);
-  --body-color: hsl(var(--hue), var(--sat), 8%);
-  --container-color: #fff;
+  --title-color: hsl(var(--hue), var(--sat), 0.5%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 10%);
+  --text-color: hsl(var(--hue), var(--sat), 0.5%);
+  --body-color: hsl(var(--hue), var(--sat), 91%);
+  --container-color: #f5d9d9;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -149,7 +149,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: rgb(43, 40, 40);
+  background-color: rgb(32, 30, 30);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -157,7 +157,7 @@ img {
 }
 
 .button:hover {
-  background-color:rgba(117, 115, 112, 0.455)
+  background-color:rgba(11, 10, 10, 0.455)
 }
 
 .button__icon {

@@ -20,7 +20,7 @@
     margin-bottom: var(--mb-2);
 }
 .about__box{
-    background-color: rgb(43, 40, 40);
+    background-color: rgb(200, 192, 192);
     border: 1px solid rgb(0, 0, 0 , 0.1);
     border-radius: 0.75rem;
     text-align: center;

@@ -6,7 +6,7 @@
 .services__content{
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgb(43, 40, 40);
+    background-color: rgb(200, 192, 192);
     padding: 3rem 0 2rem 2.5rem;
 }
 .services__view-more {
@@ -16,7 +16,7 @@
 }
 
 .services__view-more-btn {
-    background-color: #575555;
+    background-color: #3d3c3c;
     color: #fff;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -26,7 +26,7 @@
 }
 
 .services__view-more-btn:hover {
-    background-color: #1e1e1e;
+    background-color: #b5b3b3;
 }
 
 .services__icon{
@@ -76,7 +76,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(167, 165, 165, 0.5);
     z-index: var(--z-modal);
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@
     width: 50%;
     height: 70%;
     position:relative;
-    background-color: rgb(43, 40, 40);
+    background-color: rgb(225, 224, 224);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
@@ -110,7 +110,7 @@
 }
 .huuuu{
     font-size: large;
-    color: rgba(255, 121, 121, 0.908);
+    color: rgba(0, 26, 111, 0.908);
     cursor: pointer;
     
 }

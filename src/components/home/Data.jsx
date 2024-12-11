@@ -52,7 +52,7 @@ const Data = () => {
                   ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">Full Stack Developer</h3>
+        <h3 className="home__subtitle">Software Developer</h3>
         <p className="home__description"> I&apos;m a passionate software engineer based in India , and i&apos;m very dedicated to my work.</p>
 
         <a href="#contact" className="button button--flex differentbut">
