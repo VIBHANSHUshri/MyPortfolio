@@ -1,7 +1,7 @@
 /*eslint-disable */
 import "./about.css";
 import profile1 from "../../assets/profile2.jpg";
-import resume from "../../assets/resumenewindu.pdf";
+import resume from "../../assets/ResumeNewapply.pdf";
 import Info from "./Info";
 const About = () => {
   return (
